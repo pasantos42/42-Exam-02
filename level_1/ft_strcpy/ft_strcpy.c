@@ -35,10 +35,3 @@ int main (void)
     
     return (0);
 }
-
-/* 
-QUESTIONS !!!
-    - I can't check if the src is bigger than dest. Dest has null characters as it's lengh, so not even with strlen. Is it even supposed for me to check that? Pasqualerossi doesn't have that check;
-OBSERVATIONS:
-    -Use size_t when I don't know the size a string will have or need;
- */

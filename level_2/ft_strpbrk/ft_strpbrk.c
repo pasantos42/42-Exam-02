@@ -30,12 +30,3 @@ char	*ft_strpbrk(const char *s, const char *accept)
     }
     return (NULL);
 }
-
-int main (void)
-{
-    char *s = "aaa0bb1c2";
-    char *accept = "012";
-
-    printf("expected: %s\n", strpbrk(s, accept));
-    printf("mine: %s\n", ft_strpbrk(s, accept));
-}

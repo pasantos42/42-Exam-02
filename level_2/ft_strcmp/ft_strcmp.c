@@ -19,12 +19,3 @@ int ft_strcmp (char *s1, char *s2)
         i++;
     return ((unsigned char) s2[i] - (unsigned char) s1[i]);
 }
-
-int main (void)
-{
-    char *a = "doao";
-    char *b = "dobo";
-    int i = ft_strcmp(a, b);
-
-    printf("%i", i);
-}

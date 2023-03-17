@@ -29,8 +29,3 @@ int main(void) {
 
     return 0;
 }
-
-/* 
-OBSERVATIONS:
-    - tmp is not a pointer!
- */

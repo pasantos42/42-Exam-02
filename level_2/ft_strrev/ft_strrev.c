@@ -42,9 +42,3 @@ int main (void)
     char s[] = "abc";
     printf ("output: %s", ft_strrev(s));
 }
-
-/* 
-    OBSERVATIONS:
-    - declaring s = "" means a string-literal, which is a read-only. I need to put the brackets so it becomes an actual array: s[] = ""
-    - don't foget to put - 1 in the "end" variable, so it doesn't doerk with NULL's
- */

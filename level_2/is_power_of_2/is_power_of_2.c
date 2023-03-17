@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   is_power_of_2.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pasantos <pasantos <pasantos@student.42lis +#+  +:+       +#+        */
+/*   By: pasantos < pasantos@student.42lisboa.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 16:12:58 by pasantos          #+#    #+#             */
-/*   Updated: 2023/03/07 16:13:00 by pasantos         ###   ########.fr       */
+/*   Updated: 2023/03/17 18:50:47 by pasantos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,3 @@ int	is_power_of_2(unsigned int n)
 		return 1;
 	return 0;
 }
-
-/* int main (void)
-{
-	printf("%d", is_power_of_2(-765));
-} */

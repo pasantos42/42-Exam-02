@@ -26,11 +26,3 @@ int main (int argc, char** argv)
     write (1, "\n", 1);
     return (0);
 }
-
-/* 
-OBSERVATIONS:
-
-    - Write() takes a pointer, not a character or int. Therefore, it can receive a string "" or a dereferenced pointer &;
-
-    - I got my environment variables printed out cause I forgot to check for nulls
-*/

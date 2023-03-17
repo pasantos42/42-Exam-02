@@ -39,7 +39,7 @@ t_list	*sort_list(t_list* lst, int (*cmp)(int, int))
 
 //----------------------------------------------------------------------
 
-#include <stdio.h>
+/* #include <stdio.h>
 #include <stdlib.h>
 
 t_list *create_node(int data)
@@ -81,4 +81,4 @@ int main(void)
     print_list(lst);
 
     return (0);
-}
+} */

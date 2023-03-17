@@ -28,16 +28,9 @@ int	ft_atoi(const char *s)
     return (n * sign);
 }
 
-/* int main (void)
-{
-    printf("%i", ft_atoi ("-135363"));
-} */
-
 /* 
     OBSERVATIONS:
     - Check for white-spaces;
     - Check for negatives;
-    - Get the number before non-number characters;
-
-    - Compare between characters, not numbers: s[i] > 9 || s[i] > '9'
+    - Get the number before non-numeric characters;
  */
